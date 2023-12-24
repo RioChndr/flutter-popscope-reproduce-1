@@ -1,16 +1,9 @@
-# popscope_example
+# Popscope reproduce using GoRouter
 
-A new Flutter project.
+## Problem
 
-## Getting Started
+- `popScope` are not triggered when there is no stack (use go_router navigation `go` instead `push`).
 
-This project is a starting point for a Flutter application.
+## Expected result
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- `popScope` should be triggered even there is no stack route.
